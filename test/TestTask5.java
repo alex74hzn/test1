@@ -30,7 +30,6 @@ public class TestTask5 {
            if(xx <= 0){
                sizeOfNegativeX++;
                xx= xx + dx;
-               System.out.println(xx);
            }
            else{ break;}
        }
