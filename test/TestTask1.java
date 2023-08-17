@@ -8,7 +8,7 @@ public class TestTask1 {
 
 
     public static void main(String[] args) {
-        double e  = 2.71828;
+        double e  = Math.E;
         double x = 0.5;
         result = calculate( e, x);
         System.out.println(result);
