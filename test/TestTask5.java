@@ -9,7 +9,7 @@ public class TestTask5 {
     public static double[] results1;
     public static double[] results2;
     public static double[] exes;
-    public static final double E = 2.71828;
+    public static final double E = Math.E;
 
     public static void main(String[] args) {
         int n = 30;
