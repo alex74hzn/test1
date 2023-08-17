@@ -1,7 +1,7 @@
 package com.example.task.test;
 
 public class TestTask2 {
-    public  static double e = 2.71828;
+    public  static double e = Math.E;
     public  static double[] ixes;
     public  static double[] results;
     public static String message;
