@@ -82,7 +82,7 @@ public class TestTask4 {
             System.out.print("Points : ");
             for (Point p:points) {
 
-                System.out.printf("[ %2.1f,%2.1f ]", p.getX(),p.getY());
+                System.out.printf("[ %2.1f; %2.1f ]", p.getX(),p.getY());
 
             }
             System.out.print('\n');
