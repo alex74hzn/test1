@@ -3,7 +3,6 @@ package com.example.task.test;
 public class TestTask5 {
     public static double x;
     public static double y;
-
     public static double dx;
     public static double a;
     public static double[] results1;
@@ -13,12 +12,12 @@ public class TestTask5 {
 
     public static void main(String[] args) {
         int n = 30;
-
         a = 1;
         x = -2 * a;
         dx = (a / 5);
 
         calculate(n);
+       // printSimpleTable(exes,results1, results2);
         printArray(exes,results1, results2);
     }
     public static void calculate(int n){
@@ -60,20 +59,36 @@ public class TestTask5 {
         if(array1.length <=0){array1 = null;}
         if(array2.length <=0){array2 = null;}
         String tableRowDelimiter = ("+-----------------------------------------------+\n");
-
         System.out.print(tableRowDelimiter);
         System.out.printf("|\t%10s\t|\t%10s\t|\t%10s\t|\n","X", "x<=0", "x>0");
         System.out.print(tableRowDelimiter);
         int xi = 0;
         for (int i = 0; i < array1.length; i++) {
-
                 System.out.printf("|\t%10.6f\t|\t%10.6f\t|\t%10s\t|\n", xArray[xi], array1[i], "");
                 xi++;
             System.out.print(tableRowDelimiter);
             }
         for (int i = 0; i < array2.length; i++) {
-
             System.out.printf("|\t%10.6f\t|\t%10s\t|\t%10.6f\t|\n", xArray[xi], "", array2[i]);
+            xi++;
+            System.out.print(tableRowDelimiter);
+        }
+    }
+    public static void printSimpleTable(double[] xArray,double[] array1,double[] array2) {
+        if(array1.length <=0){array1 = null;}
+        if(array2.length <=0){array2 = null;}
+        String tableRowDelimiter = ("+-------------------------------+\n");
+        System.out.print(tableRowDelimiter);
+        System.out.printf("|\t%10s\t|\t%10s\t|\n","X", "Y");
+        System.out.print(tableRowDelimiter);
+        int xi = 0;
+        for (int i = 0; i < array1.length; i++) {
+                System.out.printf("|\t%10.6f\t|\t%10.6f\t|\n", xArray[xi], array1[i]);
+                xi++;
+            System.out.print(tableRowDelimiter);
+            }
+        for (int i = 0; i < array2.length; i++) {
+            System.out.printf("|\t%10.6f\t|\t%10.6f\t|\n", xArray[xi], array2[i]);
             xi++;
             System.out.print(tableRowDelimiter);
         }
