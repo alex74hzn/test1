@@ -6,18 +6,17 @@ public class TestTask7 {
     //Составить программу вычисления таблицы значений заданной функции для
     //N значений X, меняющихся от Xнач c заданных шагом HX, и M зачений для Z,
     //меняющихся от Zнач  с шагом HZ.
-    public  static int n;
-    public  static int m;
-    public  static double x;
-    public  static double z;
-    public  static double hx;
-    public  static double hz;
-    public  static double[] zets;
-    public  static double[] exes;
-    public  static double[][] mtx;
-
-
+    
     public static void main(String[] args) {
+        int n;
+        int m;
+        double x;
+        double z;
+        double hx;
+        double hz;
+        double[] zets;
+        double[] exes;
+        double[][] mtx;
         init();
         solveProblem();
         printMtxD();
