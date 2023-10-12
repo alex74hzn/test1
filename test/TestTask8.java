@@ -6,10 +6,11 @@ public class TestTask8 {
     //возрастающую арифметическую програссию с заданным начальным членом
     //0.1 и разностью 0.1. Для того, чтобы не произошло зацикливания, установить
     //предел изменения аргумента x = 10.
-    public static double x;
-    public static double step;
-    public static double result;
+   
     public static void main(String[] args) {
+        double x;
+        double step;
+        double result;
         x = 0.1;
         step = 0.1;
        doTaskWithWhile();
