@@ -1,11 +1,11 @@
 package com.example.task.test;
 
 public class TestTask2 {
-    public  static double e = Math.E;
-    public  static double[] ixes;
-    public  static double[] results;
-    public static String message;
     public static void main(String[] args) {
+        double e = Math.E;
+        double[] ixes;
+        double[] results;
+        String message;
         int n = 10;
         double a = 0.5;
         double b = 1.0;
@@ -13,7 +13,6 @@ public class TestTask2 {
         results = new double[n];
         getX(n, a, b);
         printArray(ixes, results);
-
     }
     public static void getX(int n, double a, double b){
         if(n <= 0 || a < 0 || b <= 0 || b <= a){
