@@ -3,13 +3,12 @@ package com.example.task.test;
 import java.util.Random;
 
 public class TestTask4 {
-    public static Point[] points;
-    public static Point[] truePoints;
-    public static Point[] wrongPoints;
-
+    
     public static void main(String[] args) {
         int size = 10;
-
+        Point[] points;
+        Point[] truePoints;
+        Point[] wrongPoints;
         points = new Point[size];
         int[] arrayBound = new int[] {-3, 3};
         double[] arrX = generateArr(size, arrayBound);
