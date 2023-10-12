@@ -9,21 +9,23 @@ public class TestTask6 {
     //лишь тех значений, которые удовлетворяют заданному условию, и подсчетом
     //количества остальных ее значений. В качестве начальных значений укажите
     //A=3*103, B=6*104 , M=4. Условие для определения выводимых значений f(K)
-    public static double t1;
-    public static double t2;
-    public static double t3;
-    public static double t4;
-    public static int[] kNums;
-    public static int kSize;
-    public static int intervalMin;
-    public static int intervalMax;
-    public static double[] trueValues;
-    public static double[] falseValues;
 
-    public static double a;
-    public static double b;
-    public static double m;
     public static void main(String[] args) {
+        double t1;
+        double t2;
+        double t3;
+        double t4;
+        int[] kNums;
+        int kSize;
+        int intervalMin;
+        int intervalMax;
+        double[] trueValues;
+        double[] falseValues;
+    
+        double a;
+        double b;
+        double m;
+        
         init();
         initExtremums();
         getFx();
