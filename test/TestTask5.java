@@ -1,16 +1,16 @@
 package com.example.task.test;
 
 public class TestTask5 {
-    public static double x;
-    public static double y;
-    public static double dx;
-    public static double a;
-    public static double[] results1;
-    public static double[] results2;
-    public static double[] exes;
-    public static final double E = Math.E;
-
+    
     public static void main(String[] args) {
+        double x;
+        double y;
+        double dx;
+        double a;
+        double[] results1;
+        double[] results2;
+        double[] exes;
+        final double E = Math.E;
         int n = 30;
         a = 1;
         x = -2 * a;
