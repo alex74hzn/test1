@@ -3,11 +3,9 @@ package com.example.task.test;
 
 
 public class TestTask1 {
-    public static double result;
-
-
-
+    
     public static void main(String[] args) {
+        double result;
         double e  = Math.E;
         double x = 0.5;
         result = calculate( e, x);
