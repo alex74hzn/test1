@@ -1,11 +1,12 @@
 package com.example.task.test;
 
 public class TestTask3 {
-    public static int n;
-    public static double x;
-    public  static double[] results;
-    public static double e = Math.E;
+   
     public static void main(String[] args) {
+        int n;
+        double x;
+        double[] results;
+        double e = Math.E;
         n = 20;
         x = 0.5;
         results = new double[n];
